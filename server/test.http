@@ -1,0 +1,21 @@
+### LOGIN
+POST localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "user1@example.com",
+  "password": "password"
+}
+
+### POST logout
+POST localhost:3000/logout
+
+
+### POST create page
+POST localhost:3000/pages
+Content-Type: application/json
+
+{
+  "title": "My Second Page",
+  "publicationDate": "2023-04-21"
+}

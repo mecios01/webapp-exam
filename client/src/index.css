@@ -1,0 +1,13 @@
+html,
+body {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: #efefef;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
